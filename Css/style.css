@@ -1,0 +1,693 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100vh;
+
+}
+
+/********************** navigation******************************/
+
+nav{
+	width: 100%;
+	height: 20vh;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.navleft{
+	margin-left: 25px;
+	color: white;
+}
+.navmiddle{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navmiddle a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+.navmiddle a:hover{
+	color: #FE9703;
+}
+.navright a{
+	margin: 10px;
+	color: white;
+}
+.fa:hover{
+	transform: rotate(25deg);
+	transition-duration: 0.3s;
+	color: #FE9703;
+}
+
+/************************Main Header***************************/
+
+main{
+	width: 100%;
+	height: 80vh;
+	background-image: url(../img/lottery-background.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*************************ABOUT THE GAME***********************/
+.maincontent{
+	width: 100%;
+	background-color: #212F3C;
+}
+.aboutlogo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.maincontent h1{
+	margin-top: 10px;
+	font-weight: bold;
+	color: #AF601A;
+	text-align: center;
+}
+.maincontent .about{
+	margin-left: 26%;
+	margin-right: 25%;
+	margin-top: 30px;
+	width: 800px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	color: white;
+}
+.sections{
+	margin-top: 30px;
+	width: 100%;
+	position: relative;
+	bottom: 50px;
+}
+
+/********************Section one**********************/
+
+
+.sections .secone{
+	width: 70%;
+	height: 350px;
+	margin-left: 220px;
+	display: flex;
+	justify-content: center;
+}
+.sections .secone .seconecontent{
+	width: 49%;
+	height: 300px;
+	margin-top: 50px;
+	background-color: blue;
+	background-image: url(../img/lottery-decorative2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	border-radius: 20px; 
+}
+.sections .secone .seconecontent h2{
+	color: #AF601A;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.sections .secone .seconecontent p{
+	color: white;
+	margin-top: 40px;
+	font-size: 21px;
+	text-align: center;
+}
+
+.sections .secone .seconeimg{
+	width: 50%;
+	height: 300px;
+	margin-top: 50px;
+	z-index: 11;
+	background-image: url(../img/abou123.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/****************section two****************/
+
+.sections .sectwo{
+	width: 70%;
+	height: 350px;
+	margin-left: 220px;
+	display: flex;
+	justify-content: center;
+}
+.sections .sectwo .sectwocontent{
+	width: 49%;
+	height: 300px;
+	margin-top: 50px;
+	background-color: blue;
+	background-image: url(../img/lottery-decorative2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center; 
+	border-radius: 20px;
+}
+.sections .sectwo .sectwocontent h2{
+	color: #AF601A;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.sections .sectwo .sectwocontent p{
+	color: white;
+	margin-top: 45px;
+	font-size: 22px;
+	word-spacing: 2px;
+	text-align: center;
+}
+.sections .sectwo .sectwoimg{
+	width: 50%;
+	height: 300px;
+	margin-top: 50px;
+	background-image: url(../img/saku.png);
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/******************************section three*****************************/
+
+.sections .secthree{
+	width: 70%;
+	height: 350px;
+	margin-left: 220px;
+	display: flex;
+	justify-content: center;
+}
+.sections .secthree .secthreecontent{
+	width: 49%;
+	height: 300px;
+	margin-top: 50px;
+	background-color: blue;
+	background-image: url(../img/lottery-decorative2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center; 
+	border-radius: 20px;
+
+}
+.sections .secthree .secthreecontent h2{
+	color: #AF601A;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.sections .secthree .secthreecontent p{
+	color: white;
+	margin-top: 45px;
+	font-size: 22px;
+	word-spacing: 2px;
+	text-align: center;
+}
+.sections .secthree .secthreeimg{
+	width: 50%;
+	height: 300px;
+	margin-top: 50px;
+	z-index: 11;
+	background-image: url(../img/about123.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ 
+ /***************************section four*********************************/
+
+ .sections .secfour{
+	width: 70%;
+	height: 350px;
+	margin-left: 220px;
+	display: flex;
+	justify-content: center;
+}
+.sections .secfour .secfourcontent{
+	width: 49%;
+	height: 300px;
+	margin-top: 50px;
+	background-color: blue;
+	background-image: url(../img/lottery-decorative2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center; 
+	border-radius: 20px;
+}
+.sections .secfour .secfourcontent h2{
+	color: #AF601A;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.sections .secfour .secfourcontent p{
+	color: white;
+	margin-top: 45px;
+	font-size: 22px;
+	word-spacing: 2px;
+	text-align: center;
+}
+.sections .secfour .secfourimg{
+	width: 50%;
+	height: 300px;
+	margin-top: 50px;
+    z-index: 11;
+    background-image: url(../img/lottery-09.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/************************************ROUND ONE OF GAME****************************************/
+
+.maingame{
+	width: 100%;
+	background-color:#FADBD8  ;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+
+.maingame h1{
+	text-align: center;
+	margin-top: 70px;
+	color: #760824;
+	font-family: 'Lobster', cursive;
+}
+
+/***********************************ROUND ONE***********************************/
+.maingame .gameone{
+	width: 900px;
+	height: 600px;
+	margin-top: 70px;
+	/*background-image: url(../img/brown3.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #760824 ;
+	border-radius: 20px;
+}
+.maingametwo .gameone h2{
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 20px;
+}
+.maingame .gameone #note{
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+.maingame .gameone #number{
+	height: 300px;
+	width: 300px;
+	margin-left: 300px;
+	margin-top: 70px;
+	background-color: #FADBD8;
+	color: #760824;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 250px;
+
+}
+.maingame #Enterbtn{
+	margin-left: 370px;
+	margin-top: 50px;
+	width: 150px;
+	display: block;
+	height: 50px;
+	background-color: #FADBD8;
+	color: #760824;
+	font-size: 24px;
+}
+.maingame .gameone #Enterbtn:hover{
+	background-color:#760824 ;
+	color: white;
+}
+
+
+/**********************************ROUND TWO****************************************/
+
+
+.maingame .gametwo{
+	width: 900px;
+	height: 600px;
+	margin-top: 100px;
+	/*background-image: url(../img/brown2.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #760824;
+	margin-bottom: 200px;
+	border-radius: 20px;
+}
+.gameroundtwo .h2{
+	text-align: center;
+	color: #FDEDEC;
+	position: relative;
+	top: 20px;
+}
+.gameroundtwo #notetwo{
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+.gameroundtwo .data{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.gameroundtwo .data h2{
+	text-align: center;
+	color: #FDEDEC;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.gameroundtwo .data #text{
+	height: 80px;
+	width: 150px;
+	font-size: 50px;
+	color: #760824;
+	background-color:#FADBD8;
+}
+.gameroundtwo #submitvalue{
+	width: 200px;
+	height: 40px;
+	margin-top: 30px;
+	background-color:#FADBD8;
+	color: #760824;
+	font-size: 24px;
+	display: block;
+}
+.gameroundtwo  #submitvalue:hover{
+	background-color:#760824 ;
+	color: white;
+}
+.gameroundtwo .data #result{
+	width: 300px;
+	height: 250px;
+	margin-top: 30px;
+	background-color: #FADBD8; 
+	display: none;
+	
+}
+.gameroundtwo .data #winner{
+	width: 300px;
+	height: 250px;
+	background-color: orangered;
+	display: none;
+}
+.gameroundtwo .data #loose{
+	width: 300px;
+	height: 250px;
+	display: none;
+}
+/******************************************Reviews************************************/
+.review{
+	background-color: #FADBD8;
+	width: 100%;
+	height: auto;
+}
+
+.review .reviewhead{
+	width: 85%;
+	position: relative;
+	top: 50px;               /*********automatically*************/
+	height: 190px;
+	background-color:#760824;
+	color: white;
+	text-align: center;
+	font-style: oblique;
+	font-size: 80px;
+	padding-top: 50px;
+	background: rgb(61,3,18);
+	background: linear-gradient(90deg, rgba(61,3,18,1) 32%, rgba(118,8,36,1) 99%);
+}
+.review .reviewto .reviewheadtwo{
+	width: 5%;
+	height: 100px;
+	background-color: saddlebrown;
+}
+.review .reviewto .middelreview{
+	display: flex;
+	flex-direction: row;
+}
+.review .reviewone{
+	 width: 45%;
+	 height: 500px;
+	 margin-left: 70px;
+	 margin-right: 0px;
+	 text-align: center;
+	 background-color: #890C0C ;
+	 background: rgb(61,3,18);
+	background: linear-gradient(90deg, rgba(61,3,18,1) 8%, rgba(73,4,22,1) 13%, rgba(87,5,26,1) 97%, rgba(118,8,36,1) 100%);
+}
+.review .reviewone .rone{
+	margin-top: 140px;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+.review .reviewone .reone{
+	font-size: 25px;
+	color: white;
+	margin-left: 70%;
+	margin-top: 20px;
+}
+ .review .reviewtwo{
+	width: 45%;
+	height: 500px;
+	margin-left:0;
+	background-color: #760824;
+	background: rgb(118,8,36);
+	background: linear-gradient(90deg, rgba(118,8,36,1) 0%, rgba(61,3,18,1) 5%, rgba(73,4,22,1) 94%, rgba(87,5,26,1) 96%);
+}
+.review .reviewtwo .rtwo{
+	margin-top: 120px;
+	font-size: 40px;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+.review .reviewtwo .retwo{
+	font-size: 25px;
+	color: white;
+	margin-left: 70%;
+	margin-top: 20px;
+}
+.review .reviewto #slogan{
+	width: 95%;
+	height: 190px;
+	margin-left: 70px;
+	background-color: #25020b;
+	position: relative;
+	bottom: 100px;
+}
+.review #slogan h1{
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+	top: 55px;
+	text-transform: capitalize;
+	margin: 50px;
+}
+.change_content:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+	color: white;
+}
+@keyframes changetext{
+	0%{content: "Safe";}
+	25%{content: "Secure";}
+	50%{content: "Amazing";}
+	75%{content: "Protected";}
+	100%{content: "Jackpot";}
+
+}
+
+/*****************************************footer************************************/
+
+footer{
+	width: 100%;
+	height: 70vh;
+	background-color: #212F3C;
+}
+footer .footer{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-content: center;
+
+}
+
+
+/***********footer 1****************/
+
+
+
+footer .footerone{
+	height: 320px;
+	width: 250px;
+	margin-left: 150px;
+	position: relative;
+	top: 100px;
+}
+footer .footerone h3{
+	margin: 15px;
+	color:white;
+}
+footer .footerone .one{
+	font-size: 20px;
+	color: #AEB6BF;
+	margin-top: 10px;
+	word-spacing: 1px;
+}
+footer .footerone .one div{
+	margin: 15px;
+}
+footer .footerone .one div:hover{
+	color: white;
+}
+
+/*************footer two ******************/
+
+
+footer .footertwo{
+	height: 320px;
+	width: 320px;
+	margin-left: 80px;
+	position: relative;
+	top: 100px;
+}
+footer .footertwo h3{
+	margin: 15px;
+	color:white;
+}
+footer .footertwo .two{
+	font-size: 20px;
+	color: #AEB6BF ;
+	margin-top: 10px;
+	word-spacing: 1px;
+}
+footer .footertwo .two p{
+	font-size: 20px;
+	line-height: 28px;
+}
+footer .footertwo .two p:hover{
+	color: white;
+}
+
+
+/****************footer three *****************/
+
+
+
+footer .footerthree{
+	height: 320px;
+	width: 300px;
+	margin-left: 100px;
+	position: relative;
+	top: 100px;
+}
+footer .footerthree h3{
+	margin: 15px;
+	color:white;
+}
+footer .footerthree .three{
+	font-size: 20px;
+	color: #AEB6BF ;
+	margin-top: 10px;
+	word-spacing: 1px;
+}
+footer .footerthree .three div{
+	margin: 10px;
+}
+footer .footerthree .three div:hover{
+	color: white;
+}
+/*****************footer four******************/
+
+
+
+footer .footerfour{
+	height: 320px;
+	width: 320px;
+	margin-left: 100px;
+	margin-right: 180px;
+	position: relative;
+	top: 100px;
+}
+footer .footerfour h3{
+	margin: 15px;
+	color:white;
+}
+footer .footerfour .logos2{
+	margin: 10px;
+}
+footer .footerfour .logos2 a{
+	color:#AEB6BF;
+	margin: 5px; 
+}
+footer .footerfour .logos2 .fa:hover{
+	color: white;
+}
+footer .footerfour  .subs{
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+footer .footerfour #email{
+	height: 40px;
+	width: 90%;
+	font-size: 20px;
+}
+footer .footerfour .btnfoot{
+	width: 80px;
+	height: 30px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+footer .footerfour .btnfoot:hover{
+	background-color:#AEB6BF;
+}
+
+.name{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	background-color: #212F3C;
+}
